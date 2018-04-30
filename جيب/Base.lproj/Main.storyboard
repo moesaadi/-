@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="rAD-EP-nno" id="MI4-CL-TYj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="جيب" id="QDE-9W-fXc"/>
+                    <navigationItem key="navigationItem" title="جيب" id="QDE-9W-fXc">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="I5m-qa-dmO">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="rAD-EP-nno" id="2e3-SF-DTD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pHt-oT-PC2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
